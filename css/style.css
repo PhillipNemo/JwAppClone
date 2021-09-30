@@ -275,6 +275,9 @@ a{
    display: flex;
    align-items: center;
 }
+.bottom-h2{
+margin-top:30px;
+}
 .bottom-part .image{
    margin:10px 10px 10px 0;
 }
