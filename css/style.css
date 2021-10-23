@@ -180,7 +180,10 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 5px;
-    overflow: hidden;
+    overflow-x: auto;
+}
+.what-new-container::-webkit-scrollbar{
+    width: 0%;
 }
 .img-title img{
    object-fit: cover;
