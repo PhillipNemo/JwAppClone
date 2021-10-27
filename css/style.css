@@ -10,7 +10,7 @@ body{
 }
 
 main{
-    margin-left:2% ;
+    margin-left:4% ;
 }
 
 .top-nav{
@@ -241,7 +241,7 @@ a{
     font-size: 1.2rem;
 }
 .second-content{
-    margin-top:1%;
+    margin-top:3%;
 }
 .text-theme{
     color: #000;
@@ -260,7 +260,7 @@ a{
 }
 
 .forth-content{
-    margin-top: -20px;
+    margin-top:3%;
 
 }
 .forth-content img{
@@ -279,7 +279,7 @@ a{
    align-items: center;
 }
 .bottom-h2{
-margin-top:30px;
+margin-top:40px;
 }
 .bottom-part .image{
    margin:10px 10px 10px 0;
