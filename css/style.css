@@ -10,7 +10,7 @@ body{
 }
 
 main{
-    margin-left:4% ;
+    margin-left:2% ;
 }
 
 .top-nav{
@@ -20,7 +20,7 @@ main{
     background-color: rgb(245, 241, 241);
     width: 100%;
     position: fixed;
-    top:30px;
+    top:25px;
     z-index: 1;
     height: 40px;
     padding-right: 10px;
@@ -61,7 +61,7 @@ span.more{
   margin-right: 10px;
 
 }
-.text h2{
+#date{
     padding:8px;
     color:#513183;
 }
@@ -81,7 +81,7 @@ a{
 }
 #bottom-nav{
     background-color:rgb(228, 224, 224) ;
-    width:27%;
+    width:20%;
     overflow-y: hidden;
     color: white;
     height: 100%;
@@ -125,7 +125,7 @@ a{
 
 }
 #toggleNav svg{
-    width: 25px;
+    width: 35px;
 }
 .first-content,.third-content,.forth-content{
     margin-left: 0;
@@ -135,13 +135,13 @@ a{
     justify-content: space-between;
     align-items: center;
     padding-right: 15px;
+    margin-top: 20px;
 }
 .tool-box-header .language,.what-new-header .language{
     color: #513183;
 }
 .heading {
     font-size:1.5rem ;
-    margin-top:20px;
 }
 .frequently img{
     width: 100px;
@@ -258,6 +258,11 @@ a{
     color:black;
     overflow-x: auto;
 }
+
+.forth-content{
+    margin-top: -30px;
+}
+
 .forth-content img{
     width: 220px;
 }
@@ -272,9 +277,8 @@ a{
 .bottom-part{
    display: flex;
    align-items: center;
-}
-.bottom-h2{
-margin-top:40px;
+   overflow-x: auto;
+   padding-bottom: 30px;
 }
 .bottom-part .image{
    margin:10px 10px 10px 0;
@@ -292,12 +296,9 @@ margin-top:40px;
 @media screen and (max-width:900px) {
    
     #bottom-nav{
-        width: 60%;
+        width: 50%;
     }
-    .bottom-part{
-        overflow: hidden;
-    }
-    .bottom-part::-webkit-scrollbar{
-        width: 0%;
-    }
+  .forth-content{
+    margin-bottom: 40px;
+}
 }
